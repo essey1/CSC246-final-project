@@ -2,13 +2,30 @@
 
 ## Authors
 
- - Scott Kirkpatrick((https://github.com/ScottK567))
+ - Scott Kirkpatrick(https://github.com/ScottK567)
  - Fairooz Farzana (https://github.com/TasniaF)
- - name 3 (with optional link to github profiles)
+ - Essey Araya(with optional link to github profiles)
 
 ## Project Statement
+You are developing a treasure-hunting game where a player explores a map looking for hidden treasures. The map contains many treasures scattered across different locations. The player has a limited searching ability, meaning they can only detect treasures within a certain radius of their current location, and with the player’s coordinates, the locations of all hidden treasures, and the player’s search radius, our program can identify all treasures the player can detect.
 
-Project statement should be here.
+Each treasure chest contains an (x,y) coordinate, and the player has an (x,y) coordinate along with a search radius.
+
+Implement a method that takes the player's coordinates, their search radius, and a KD Tree containing the treasures' locations. It must return a list of all the treasure chests located within the search radius of the player.
+
+Euclidean distance formula:
+<img width="229" height="40" alt="EuclideanDistance" src="https://github.com/user-attachments/assets/844c57b1-138a-4f8c-b1e7-59b87a6aa8e5" />
+
+
+Calculate the Euclidean distance between the player and the treasure chest. It is considered in range if it is less than or equal to the search radius.
+
+Requirements:
+Return every chest within the player's search radius
+Don’t return any outside of the search radius.
+If they are located on the boundary, they are considered within the search radius.
+If there are zero treasures, return an empty list.
+Don’t return duplicate chests.
+
 
 ![sample image](sample-image.png "Sample Image")
  
