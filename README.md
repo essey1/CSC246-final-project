@@ -3,7 +3,7 @@
 ## Authors
 
  - name 1 (with optional link to github profiles)
- - name 2 (with optional link to github profiles)
+ - Fairooz Farzana (https://github.com/TasniaF)
  - name 3 (with optional link to github profiles)
 
 ## Project Statement
