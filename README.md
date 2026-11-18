@@ -2,7 +2,7 @@
 
 ## Authors
 
- - name 1 (with optional link to github profiles)
+ - Scott Kirkpatrick((https://github.com/ScottK567))
  - Fairooz Farzana (https://github.com/TasniaF)
  - name 3 (with optional link to github profiles)
 
